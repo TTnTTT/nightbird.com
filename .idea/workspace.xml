@@ -1,15 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2ce45be-2403-4417-aa21-84591107a691" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/basic/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/basic/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/basic/安全.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/basic/安全.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/basic/底层.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/basic/底层.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/basic/我常用的Linux命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/basic/我常用的Linux命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/basic/框架.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/basic/框架.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/basic/计算机网络相关.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/basic/计算机网络相关.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/caozuoxitong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/img/post/jisuanjiwangluo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/fluid/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/fluid/_config.yml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="/usr/local/plug/apache-maven-3.5.4/repository" />
-        <option name="mavenHome" value="/usr/local/plug/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="/usr/local/plug/apache-maven-3.5.4/conf/settings.xml" />
+        <option name="localRepository" value="D:\Maven\repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1iljVprf8zc9QiIuJaBInXYYAlL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\静态网页\nightbird.com\source\_posts\skill" />
+      <recent name="D:\IDEA\静态网页\nightbird.com\source\img\images" />
+      <recent name="D:\IDEA\静态网页\nightbird.com\source\img\post" />
+      <recent name="D:\IDEA\静态网页\nightbird.com\source\img" />
+      <recent name="$PROJECT_DIR$/source/_posts/basic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\静态网页\nightbird.com\source\img\images" />
+      <recent name="$PROJECT_DIR$/source/img/images" />
+      <recent name="$PROJECT_DIR$/source/技术面" />
+      <recent name="$PROJECT_DIR$/source" />
+      <recent name="$PROJECT_DIR$/source/_drafts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2ce45be-2403-4417-aa21-84591107a691" name="Default Changelist" comment="" />
+      <created>1602489106585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602489106585</updated>
+      <workItem from="1602489138221" duration="2683000" />
+      <workItem from="1602502067567" duration="28028000" />
+      <workItem from="1604385077398" duration="2165000" />
+      <workItem from="1604389771705" duration="1305000" />
+      <workItem from="1604648449078" duration="4627000" />
+      <workItem from="1604763637647" duration="400000" />
+      <workItem from="1605581723789" duration="1055000" />
+      <workItem from="1606308631897" duration="6277000" />
+      <workItem from="1606354306997" duration="1864000" />
+      <workItem from="1608219397169" duration="33000" />
+      <workItem from="1608253664529" duration="883000" />
+      <workItem from="1608375432680" duration="422000" />
+      <workItem from="1608429795754" duration="198000" />
+      <workItem from="1608472447845" duration="204000" />
+      <workItem from="1609727269158" duration="326000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="495" y="136" key="FileChooserDialogImpl" timestamp="1604672062976">
+      <screen x="50" y="0" width="1316" height="768" />
+    </state>
+    <state x="495" y="136" key="FileChooserDialogImpl/50.0.1316.768@50.0.1316.768" timestamp="1604672062976" />
   </component>
 </project>

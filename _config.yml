@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://nigntbird.com
-root: /
+url: http://ttntt.gitee.io/ttntt.gitee.io
+root: /ttntt.gitee.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -32,18 +32,22 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
+new_post_name: :title.md #新文章的文件名称
+default_layout: post #预设布局
 titlecase: false # Transform title into titlecase
+auto_spacing: true	#在中文和英文之间加入空格
 external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
-  exclude: ''
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
+  enable: true # 在新标签中打开链接
+  field: site # 在新标签中打开链接
+  exclude: '' # 需要排除的域名。主域名和子域名如 www 需分别配置
+filename_case: 0 # 把文件名称转换为 (1) 小写或 (2) 大写
+render_drafts: false #显示草稿
+post_asset_folder: true #启动 Asset 文件夹 设置后可以直接在博客中引入本地图片
+marked: #配置这些后即可直接在.md文件直接引入图片
+  prependRoot: true
+  postAsset: true
+relative_link: false # 把链接改为与根目录的相对位址
+future: false #未来文章显示
 highlight:
   enable: true
   line_number: true
@@ -103,4 +107,9 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://gitee.com/TTnTT/TTnTT.gitee.io.git
+  branch: master
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+

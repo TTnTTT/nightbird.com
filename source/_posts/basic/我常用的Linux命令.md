@@ -13,6 +13,7 @@ tags:
 
 # github搜索项目：
 `language:java stars:>1000 pushed:>2019-10-1 size:>=5000 location:china 微服务 in:(name/readme/description) `
+
 # git统计每个人增删行数：
 > `git log --format='%aN' | sort -u | while read name;
  do echo -en "$name\t";
@@ -28,7 +29,7 @@ git log --author="username" --pretty=tformat: --numstat | awk '{ add += $1; subs
 ***
 
 ## 测试远程主机的端口是否在使用并且开放的：
-telnet  122.51.6.249 8080（注意这个只能检测在使用的端口）
+telnet  122.51.6.241 8080（注意这个只能检测在使用的端口）
 
 # 进程
 ## 一、常用命令总结 (Process Status)
@@ -42,6 +43,20 @@ telnet  122.51.6.249 8080（注意这个只能检测在使用的端口）
   * 再找pid对应端口(如pid=15452)：netstat -anp | grep 15452
   * 查看具体某个端口是否占用(如8080)：netstat –apn | grep 8080
   * 查看所有端口开放情况：lsof -i : 端口号(如果没有任何输出则说明没有开启该端口号)
+### 改文件所有者
+
+``` 
+chown [-R]  xxuser  /xx   -R代表递归文件下面的所有文件
+```
+
+### 改文件群组
+
+```shell
+chgrp  组群  文件名/目录 
+```
+
+
+
 # 更改权限的两种方式
 ## 一、chmod u+x 文件名
 身份： u=用户 g= 组 o=其他 a=所有身份
@@ -86,3 +101,29 @@ apt show|	apt-cache show|	显示安装细节
 |--|--|
 apt list|	列出包含条件的包（已安装，可升级等）
 apt edit-sources|	编辑源列表
+
+
+
+## 对日志文件的IP值次数进行统计   并显示次数最多的前六名
+
+`grep -i -o -E "([0-9]{1,3}\.){3}[0-9]{1,3}" test1.txt | sort -n | uniq -c | sort -n -r | head -6`
+
+> > grep命令 用于文本搜索
+>
+> > > -E：用于使用正则匹配
+>
+> > > -o：只显示匹配的部分
+>
+> > > -i：忽略大小写
+>
+> > sort命令用于排序
+>
+> > > -n：数值排序
+>
+> > > -r：倒序排序
+>
+> > uniq命令用于去重
+>
+> > > -c：显示重复次数
+>
+> > head -6命令显示前6行
